@@ -37,3 +37,13 @@ Letterboxd-top-movies-scraper/
 ├── .gitignore
 │
 └── DataSets/
+
+## Running the Scraper
+
+This project uses Selenium to automate Google Chrome.
+
+For the easiest setup, run the scraper on a local computer with Google Chrome installed.
+
+```bash
+pip install -r requirements.txt
+python letterboxd_movie_scraper.py
